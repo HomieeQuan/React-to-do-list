@@ -1,12 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './App.css';
-import TodoForm from './components/TodoForm';
+import TodoList from './components/TodoList';
 
 function App() {
+  
+
   return (
-    <div>
-      <h1>HI</h1>
-      <TodoForm />
+    <div className='todo-app'>
+      
+      <TodoList />
     </div>
   )
 
